@@ -5,10 +5,10 @@ xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.phonegap.app9"
 version = "1.0.0">
 
-<name>app9 Reproductor de Audio</name>
+<name>app9 Reproductor de audio </name>
 
 <description>
-Utiliza Plugins de audio para reproducir archivo mp3
+utiliza plugins de audio para reproducir archivo mp3
 </description>
 
 <author href="https://build.phonegap.com" email="cbtis16.larios.samantha.h@gmail.com">
@@ -16,7 +16,9 @@ Samantha Larios Romero
 </author>
 
 <!--Personaliza la aplicacion y plataforma-->
-<preference name="orientation"  value="portrait" />
+<preference name="orientation"  value="default" />
+<!--preference name="orientation"  value="portrait" />
+<prefernce name="orientation"  value="landscape"/>-->
 <preference name="target-device"  value="universal" />
 <preference name="fullscreen"  value="true" />
 <preference name="android-installLocation" value="auto" />
